@@ -182,6 +182,43 @@
     color: #fff;
 }
 
+/* review section start  */
+.content_ParaReview{
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+
+    color: #accaea;
+}
+
+.content_headingReviews{
+    font-size: 66px;
+    font-weight: 900;
+    color: #4051a3;
+    padding: 10px 0;
+
+}
+.content_headingOpinoin{
+    font-size: 33px;
+    font-weight: 800;
+    color: #4051a3;
+    padding: 10px 0;
+
+}
+.bg-heroReview{
+    background-image: url('../img/Feedback-page-Vector.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    height: 80vh !important;
+
+}
+
+
+
+
+/* review section end  */
+
 
 
 
