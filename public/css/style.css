@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Comic+Neue:wght@300;400;700&family=Poppins:wght@100;200;300;400;500&display=swap");
 * {
   font-family: "Poppins", sans-serif;
   padding: 0;
@@ -1265,6 +1265,94 @@ li:nth-child(3) .nav-link:focus::after {
 }
 
 /* ourEssaySection css end ------------------------------------------------- */
+/* ourExpertHeroSection css start ------------------------------------------------------  */
+
+.FaittilePara {
+  font-size: 18px;
+  font-weight: 700;
+  color: #003d8d;
+  line-height: 50px;
+}
+.faitTitle {
+  font-size: 56px;
+  font-weight: 800;
+  padding: 20px;
+  color: #003d8d;
+  text-transform: uppercase;
+}
+.caroselDiv {
+  background-color: #ace8f4;
+  border-radius: 25px;
+  margin: 40px 0;
+}
+.getToknowSectionh1 {
+  font-size: 44px;
+  font-weight: 900;
+  color: #003d8d;
+  text-transform: uppercase;
+  text-align: center;
+}
+.expertSlider {
+  background-color: #ace8f4;
+  border-radius: 25px;
+  margin: 40px 0;
+  padding: 30px !important;
+}
+
+.FiftyplusBox {
+  width: 300px;
+  height: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #0079bf; */
+}
+.fiftyplusTitle {
+  font-size: 65px;
+  color: #fff;
+  font-weight: 900;
+}
+.ourExpertHeroH1 {
+  font-size: 44px;
+  color: #003d8d;
+  line-height: 48px;
+  font-weight: 900;
+}
+.ourExpertPara {
+  color: #003d8d;
+  line-height: 28px;
+
+  font-size: 14px;
+  font-weight: 700;
+}
+.ourteamWorkMainDiv {
+  padding: 40px;
+  border-radius: 25px;
+  background-color: #ace8f4;
+}
+.ourteamWorkMainDiv h1 {
+  font-size: 44px;
+  font-weight: 900;
+  color: #003d8d;
+  text-transform: uppercase;
+  text-align: center;
+}
+.TeamTitleSperwriter {
+  font-size: 18px;
+  color: #003d8d;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.teamTitlePara {
+  font-size: 12px;
+  color: #003d8d;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding: 10px;
+}
+
+/* ourExpertHeroSection css end ------------------------------------------------------  */
 
 /* FAQS start ----------------------------------------------- */
 
@@ -1345,21 +1433,6 @@ li:nth-child(3) .nav-link:focus::after {
   text-align: center;
 }
 
-.slick-next::before {
-  content: url("../img/side-angle-1.png") !important;
-}
-.slick-prev:before {
-  content: url("../img/side-angle.png") !important;
-}
-.slick-current {
-  align-items: center !important;
-  display: flex !important;
-  opacity: 1 !important;
-  height: 357px;
-  transform: scale(1.2) !important;
-  transition: all 0.1s ease-out !important;
-}
-
 .imgSliderMessagebg {
   height: 179px !important;
   padding: 24px;
@@ -1434,11 +1507,61 @@ li:nth-child(3) .nav-link:focus::after {
 }
 .firstCirclePara {
   color: #0079bf;
-  font-weight: 500;
+  font-weight: 0.5;
   font-size: 16px;
   text-transform: capitalize;
 }
 /* wo we are css end  -----------------------------------------------------*/
+/* contact us css start  -----------------------------------------------------*/
+
+.WantTomakeSection {
+  padding: 50px 0;
+}
+.titlecontact {
+  font-weight: bold;
+  color: #003d8d;
+  font-size: 18px;
+}
+.contactPara {
+  color: #003d8d;
+  font-size: 18px;
+}
+.contactPara2 {
+  color: #003d8d;
+  font-size: 18px;
+}
+.contactUsbtn {
+  background-color: #003d8d;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  font-size: 14px;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+}
+.contactUsbtn:hover {
+  transform: scale(0.9);
+}
+.hereFewAdTtile {
+  font-size: 38px;
+  font-weight: bolder;
+  color: #003d8d;
+  text-transform: capitalize;
+  padding: 20px 0;
+}
+.wantoMaketitle {
+  font-size: 28px;
+  font-weight: 900;
+  color: #003d8d;
+}
+.wantTomakePara {
+  font-size: 38px;
+  color: #003d8d;
+  font-weight: 500;
+  font-family: "Comforter Brush", cursive;
+}
+
+/* contact us css end  -----------------------------------------------------*/
 
 /* footer section start ------------------------------------------------ */
 .footer-bg {
@@ -1654,6 +1777,49 @@ footer p:hover {
   }
   .signuprightDiv h1 {
     font-size: 30px;
+  }
+}
+@media (max-width: 688px) {
+  .teamTitlePara {
+    text-align: center;
+  }
+  .TeamTitleSperwriter {
+    text-align: center;
+  }
+  .hereFewAdTtile {
+    font-size: 30px;
+    text-align: start !important;
+  }
+  .FiftyplusBox {
+    width: 165px;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #0079bf; */
+  }
+  .FaittilePara {
+    padding: 10px;
+  }
+  .frames {
+    max-width: 71% !important;
+  }
+  .ourExpertHeroH1 {
+    font-size: 30px;
+    color: #003d8d;
+    line-height: 40px;
+  }
+  .ourteamWorkMainDiv h1 {
+    font-size: 30px;
+
+    font-weight: 900;
+    color: #003d8d;
+    text-align: start;
+  }
+  .getToknowSectionh1 {
+    font-size: 30px;
+    text-align: center;
   }
 }
 @media (max-width: 509px) {

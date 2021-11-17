@@ -21,6 +21,23 @@
   <!-- silk slider cdn  -->
 
   <style>
+    .slick-next::before {
+      content: url("img/side-angle-1.png") !important;
+    }
+
+    .slick-prev:before {
+      content: url("img/side-angle.png") !important;
+    }
+
+    .slick-current {
+      align-items: center !important;
+      display: flex !important;
+      opacity: 1 !important;
+      height: 357px;
+      transform: scale(1.2) !important;
+      transition: all 0.1s ease-out !important;
+    }
+
     .slider {
       width: 100%;
       height: 400px;
